@@ -18,23 +18,23 @@
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-core</artifactId>
-    <version>5.6.1.Final</version>
+    <version>5.4.7.Final</version>
 </dependency>
 </dependencies>
 <build>
-  		<plugins>
-  			<plugin>
-  				<artifactId>maven-jar-plugin</artifactId>
-  				<version>3.0.2</version>
-  				<configuration>
-  					<archive>
-  						<manifest>
-  							<addClasspath>true</addClasspath>
-  							<mainClass>com.lti.app.App</mainClass>
-  						</manifest>
-  					</archive>
-  				</configuration>
-  			</plugin>
-  		</plugins>
+		<plugins>
+				<plugin>
+         			 <artifactId>maven-jar-plugin</artifactId>
+          			 <version>3.0.2</version>
+          			 <configuration>
+          			 	<archive>
+          			 		<manifest>
+          			 			<addClasspath>true</addClasspath>
+          			 			<mainClass>com.lti.app.App</mainClass>
+          			 		</manifest>
+          			 	</archive>
+          			 </configuration>
+        </plugin>
+		</plugins>
 </build>
 </project>
